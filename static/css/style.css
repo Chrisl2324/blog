@@ -1,0 +1,26 @@
+/* style.css */
+
+body {
+    background-color: midnightblue;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Gill Sans', sans-serif;
+    font-style: italic;
+  }
+  
+  h1 {
+    background-color: midnightblue;
+    color: white;
+    font-size: 70px;
+    text-align: center;
+    font-family: 'Gill Sans', sans-serif;
+    font-style: italic;
+  }
+  
+  a.link {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+  }
+  

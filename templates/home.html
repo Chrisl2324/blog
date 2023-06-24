@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <title>Home</title>
+    <link rel="stylesheet" href="{{url_for('static', filename='css/style.css')}}">
+</head>
+    <body>
+        <h1>Chris's Blog</h1>
+        <p>Welcome to my blog!</p>
+        <img src="https://as2.ftcdn.net/v2/jpg/01/93/22/45/1000_F_193224512_jktLglscIiq6MtUSlT3a7xavUvEp5uAe.jpg" width="450" height="300">
+        <br>
+        <a href="{{ url_for('posts.create_post') }}" class="link">Go to Post Page</a>
+
+    </body>
+</html>
+
